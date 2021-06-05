@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+body {
+  color: #000;
+  width: 100%;
+  min-height: 100vh;
+  background: #ecccf6;
+  background: linear-gradient(82deg, #ecccf6 0%, #fdfcf9 91%);
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h1, h3, h4, h5, h6 {
+  margin: 1rem auto;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+p {
+  color: #3a3b3b;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+p span {
+  cursor: pointer;
+  color: #674FFC;
+  font-weight: bold;
+}
+
+p span:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  border-bottom: 1px solid #674FFC;
+}
+
+.navbar {
+  width: 100%;
+  margin: 5vh auto !important;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .brand {
+  width: 150px;
+}
+
+.navbar .links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
